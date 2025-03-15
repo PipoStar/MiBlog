@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1em 0;
+}
+
+.container {
+    flex: 1;
+}
+
+.menu {
+    text-transform: uppercase;
+}
+
+.menu a {
+    padding: 18px 22px;
+    margin-left: 0.1em;
+    font-size: 20px;
+    border-radius: 0.25em;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu a:hover,
+.menu a.selected {
+    background-color: steelblue;
+    color: aliceblue;
+}
+
+.title {
+    font-size: 4em;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.subtitles {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+}
+
+@media (min-width: 768px) {
+    footer {
+        font-size: 14px;
+        padding: 20px;
+    }
+}
+
+.imagen, .social img {
+    margin-right: 0.5em;
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    width: 16em;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .menu ul {
+        flex-direction: row;
+    }
+    .menu ul li {
+        margin-bottom: 0;
+    }
+}
+.subtitles {
+    text-align: center;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Asegura alineación vertical */
+    gap: 20px; /* Espacio entre los iconos */
+}
+
+.social-icon {
+    width: 50px; /* Ajusta según sea necesario */
+    height: auto;
+    display: inline-block;
+}

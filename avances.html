@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis avances</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="grid grid-cols-1 md:grid-cols-10 container mx-auto mb-4">
+        <div class="col-span-3 flex justify-center md:justify-start">
+          <a href="index.html"><img src="img/Frame1.svg" alt="logo de mi blog" width="230" class="logo"></a>
+        </div>
+        <div class="col-span-7 flex justify-center md:justify-end">
+          <nav class="menu">
+            <ul class="flex flex-col md:flex-row">
+              <li><a href="index.html">Presentación</a></li>
+              <li><a href="metas.html" >Metas</a></li>
+              <li><a href="proyectos.html" >Proyectos</a></li>
+              <li><a href="avances.html" class="selected">Avances</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <div class="container mx-auto mb-8">
+        <h1 class="title">Mis Avances:</h1>
+        <h2 class="subtitles"> .Dominio del nivel basico de HTML</h2>
+        <P>Esta pagina es una prueba de mi domio del nivel basico en html, los titulos, imagenes , enlaces, tamaños, la estructura de la pagina, etc. aunque en este blog no muestro del todo mis otros avances un poco de ello les comentare en este pequeño parrafo: Tambien aprendi a ahacer formularios , los atributos de los enlacen, un poco de las etiquetas fundamentales de html , hacer tablas , etc. </P>
+        <img src="img/avances.jpeg" alt="avances" class="w-full md:w-2/3 mx-auto">
+    </div>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+    <main class="col-span-3">
+        
+        <h2 class="subtitles"> .Conocimientos previos de CSS y JavaScript</h2>
+        <p>Por el momento solo conozco en CSS , estilos como : modificar el tamaño de los textos y imagenes, cambiar de colores, a posicionar el menu de navegacion y el logotipo, a poner fondos , modificar el tipo de letra , etc. </p>
+        <br>
+        <p>Con JavaScript solo vi fundamnetos basicos , por ejemplo, a ordenar a que me haga una lista, a que me sume , reste , multiplique y divida numeros , a ordenarle que me bote textos, tambien hice un sistema bancario basico, etc</p>        
+    </main>
+
+    <aside class="mb-8 text-center">
+        <h2 class="subtitles">Sígueme en redes:</h2>
+        <div class="social-container">
+            <a href="https://www.facebook.com/share/1BQ4nbQjrP/" target="_blank"><img src="img/facebook.png" alt="Facebook" class="social-icon"></a>
+            <a href="https://www.tiktok.com/@pipo_potips?_t=ZS-8u1xbohdF7l&_r=1" target="_blank"><img src="img/tiktok.png" alt="TikTok" class="social-icon"></a>
+        </div>
+    </aside>
+    </div>
+<br>
+    <footer>
+        <p>El Blog de Peter <br> Lima , Perú | Contacto : 987 218 052</p>
+    </footer>
+</body>
+</html>

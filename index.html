@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Peter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="grid grid-cols-1 md:grid-cols-10 container mx-auto mb-4">
+        <div class="col-span-3 flex justify-center md:justify-start">
+          <a href="index.html"><img src="img/Frame1.svg" alt="logo de mi blog" width="230" class="logo"></a>
+        </div>
+        <div class="col-span-7 flex justify-center md:justify-end">
+          <nav class="menu">
+            <ul class="flex flex-col md:flex-row">
+              <li><a href="index.html" class="selected">Presentación</a></li>
+              <li><a href="metas.html" >Metas</a></li>
+              <li><a href="proyectos.html" >Proyectos</a></li>
+              <li><a href="avances.html" >Avances</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <div class="container mx-auto mb-8">
+        <h1 class="title text-3x1 md:text-5xl font-bold">Sean Bienvenidos a mi Blog</h1>
+        <h2 class="subtitles text-3x1 md:text-5x1">Conóceme un poco más...</h2>
+        <p>Es un gusto, me llamo Peter, tengo 17 años y estoy empezando a desarrollar mi primer sitio web. Me alegra mucho que vean mi avance como desarrollador web y, en el futuro, como desarrollador de aplicaciones móviles.</p>
+        <br>
+        <img src="img/whatsapp-imagen.webp" alt="mi imagen" class="w-full md:w-2/3 mx-auto">
+    </div>
+
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <main class="col-span-3">
+            <h2 class="subtitles">¿Qué busco demostrar en este sitio web?</h2>
+            <p>Quiero mostrarles mis avances en el desarrollo web, las metas que tengo, objetivos, lo que deseo estudiar, en qué ámbito quiero formar parte de mi carrera y los proyectos que tengo planeados para este año.</p>
+        </main>
+
+        <aside class="mb-8 text-center">
+            <h2 class="subtitles">Sígueme en redes:</h2>
+            <div class="social-container">
+                <a href="https://www.facebook.com/share/1BQ4nbQjrP/" target="_blank"><img src="img/facebook.png" alt="Facebook" class="social-icon"></a>
+                <a href="https://www.tiktok.com/@pipo_potips?_t=ZS-8u1xbohdF7l&_r=1" target="_blank"><img src="img/tiktok.png" alt="TikTok" class="social-icon"></a>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>El Blog de Peter <br> Lima, Perú | Contacto: 987 218 052</p>
+    </footer>
+
+</body>
+</html>
